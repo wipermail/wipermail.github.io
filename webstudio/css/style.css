@@ -653,7 +653,9 @@ i.abt_linkedin:hover{
 	margin-top: 5em;
 }
 .blog-section-grid img {
+  height: 470px;
 	width:100%;
+  background-size: cover;
 }
 .blog-section-grid  h4{
 	color:#303030;
@@ -1955,4 +1957,10 @@ i.f_mail {
 		padding: 0.1em 0 0.3em 0;
 		border-bottom: 1px solid rgba(9, 11, 4, 0.83);
 	}
+}
+
+.frameOutEditor {
+  width: 90%;
+  border: 1px solid #12B998;
+  height: 500px;
 }
