@@ -1,0 +1,152 @@
+@charset "utf-8";
+/* CSS Document */
+*{
+/*  border: 1px solid red;*/
+  color: yellow;
+  box-sizing: border-box;
+  font-family: Calibri;
+}
+
+
+html{
+  font-size: 10px;
+}
+
+
+body{
+  background-color: #000;
+  margin: 0;
+  padding: 0;
+}
+
+.headerScreen{
+  height: 69rem;
+/*  border: 3px solid orange;*/
+  background-image: url(img/gradientBackground.png);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.menuHeader{
+  background-color: none !important;
+  border: none;
+}
+
+.navMenu>li>a{
+  color: yellow;
+  font-size: 2.4rem;
+  font-style: italic;
+  font-weight: bold;
+}
+
+.navMenu>li>a:hover, .navMenu>li>a:active{
+  background-color: transparent;
+}
+
+.navbar-default {
+  background-color: none;
+  color: yellow;
+}
+
+.navbar-brand {
+  background-color: none !important;
+  padding: 0 0;
+}
+
+.backgroudImgHeader{
+/*
+  background-image: url(img/background1.jpg);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+*/
+}
+
+.twopodscreen{
+/*  border:1px solid green;*/
+  height: 41.5rem;
+  margin-top: 7rem;
+  margin-bottom: 7rem;
+}
+
+.textHeader{
+  margin: 5rem;
+}
+
+.stringSlayderHeader {
+  font-size: 3.4rem;
+  font-weight: bold;
+}
+
+.aboutTextBlock {
+  margin-top: 2rem;
+}
+
+.textTitle {
+  font-family: "Comic Sans MS";
+  font-weight: bold;
+  font-size: 3.6rem;
+}
+
+.aboutMeText{
+  font-family: "Comic Sans MS";
+  font-size: 3rem;
+  font-weight:normal;
+}
+
+.aboutUs{
+  height: 66rem;
+}
+
+.sectionAbout {
+  margin-top: 10rem;
+  height: 49.7rem;
+}
+
+.imgArtist {
+  max-height: 49.7rem;
+}
+
+.gallerySection {
+  height: 76rem;
+}
+
+.imageCarusel{
+  width: 30rem;
+  height: 30rem;
+  display: inline-flex;
+}
+.contactForm {
+/*  height: 56rem;*/
+}
+.formDiv{
+  width: 100%;
+  height: 12rem;
+  background-color: rgba(26,26,26,1.00)
+}
+
+.textTitle {
+}
+
+.callText{
+  padding: 3.5rem 0;
+}
+
+footer{
+  height: 11rem;
+  border: 1px solid green;
+  padding-top: 2rem;
+}
+
+.footerCoopyright{
+  font-family: "Myriad Pro";
+  font-size: 1.8rem;
+  font-weight: normal;
+}
+
+.makeStudio {
+  font-family: "Myriad Pro";
+  font-size: 1.4rem;
+  font-weight: normal;
+}
