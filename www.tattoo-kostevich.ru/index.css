@@ -54,6 +54,11 @@ body{
   padding: 0 0;
 }
 
+.logoHeadmin {
+  width: 100%;
+  height: auto;
+}
+
 .backgroudImgHeader{
 /*
   background-image: url(img/background1.jpg);
@@ -105,11 +110,13 @@ body{
 }
 
 .imgArtist {
-  max-height: 49.7rem;
+  max-width: 100%;
+  height: auto;
+/*  max-height: 49.7rem;*/
 }
 
 .gallerySection {
-  height: 76rem;
+  height: auto;
 }
 
 .imageCarusel{
@@ -149,4 +156,45 @@ footer{
   font-family: "Myriad Pro";
   font-size: 1.4rem;
   font-weight: normal;
+}
+@media (max-width: 991px){
+  .aboutUs {
+    height: auto;
+  }
+}
+
+@media (max-width: 534px){
+  .sectionAbout{
+    height: auto;
+  }
+}
+
+@media (max-width: 701px){
+  .rootBlock{
+    overflow: hidden;
+  }
+  .blockSlyder{
+    overflow: hidden;
+  }
+  .owl-carousel{
+    overflow: hidden;
+  }
+}
+
+@media (max-width: 534px){
+  html {
+    font-size: 8px;
+  }
+}
+
+@media (max-width: 454px){
+  html {
+    font-size: 7px;
+  }
+}
+
+@media (max-width: 408px){
+  html {
+    font-size: 5px;
+  }
 }
