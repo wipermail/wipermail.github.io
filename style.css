@@ -1273,7 +1273,11 @@ figure a .text-overlay .info span {
 .revolution ul li {
     position: relative
 }
+/*.large {
+    background: rgba(0, 0, 0, 0.59);
+}*/
 .revolution .large {
+    /*background: rgba(0, 0, 0, 0.59);*/
     font-size: 44px;
     font-weight: 700;
     margin-bottom: 30px;
