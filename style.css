@@ -287,7 +287,7 @@ figure a .text-overlay .info span{padding:12px 21px;font-weight:600;font-size:14
 .revolution ul{visibility:hidden;margin:0;list-style:none;}
 .revolution ul li{position:relative}
 .revolution .large{font-size:44px;font-weight:700;margin-bottom:30px;color:#FFF;}
-.revolution .small{font-size:22px;letter-spacing:0.3px;font-family:'Libre Baskerville', serif;font-style:italic;color:#FFF;}
+.revolution .small{font-size:28px;letter-spacing:0.3px;font-family:'Libre Baskerville', serif;font-style:italic;color:#FFF;}
 .tp-leftarrow.default,
 .tp-rightarrow.default{z-index:100;cursor:pointer;position:relative;top:50% !important;-webkit-transition:all 200ms ease-in;-o-transition:all 200ms ease-in;-moz-transition:all 200ms ease-in;color:#f7f7f7;padding:0;width:40px;height:40px;line-height:40px;text-align:center;font-size:16px;background:rgba(30,30,31,0.7);}
 .tparrows:before{font-family:'fontello';font-style:normal;font-weight:normal;speak:none;display:inline-block;text-decoration:inherit;text-align:center;}
