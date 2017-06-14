@@ -286,7 +286,7 @@ figure a .text-overlay .info span{padding:12px 21px;font-weight:600;font-size:14
 .revolution{z-index:998}
 .revolution ul{visibility:hidden;margin:0;list-style:none;}
 .revolution ul li{position:relative}
-/*.large, .small {background-color: rgba(0,0,0,0.7);}*/
+.large, .small {text-shadow: 1px 1px 2px black, 0 0 1em black;}
 .revolution .large{font-size:44px;font-weight:700;margin-bottom:30px;color:#FFF;}
 .revolution .small{font-size:28px;letter-spacing:0.3px;font-family:'Libre Baskerville', serif;font-style:italic;color:#FFF;}
 .tp-leftarrow.default,
